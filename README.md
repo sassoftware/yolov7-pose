@@ -2,15 +2,17 @@
 
 ## Overview
 
-Implementation of "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors".
+This python package is an implementation of "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors".
 
 Pose estimation implimentation is based on [YOLO-Pose](https://arxiv.org/abs/2204.06806).
 
-This is a tailored version for use of SAS Viya action DLModelZoo.
+This is a tailored version for use of the SAS Viya DLModelZoo action set.
 
 ### Installation
 
-TODO 
+To install YOLOv7-Pose, use the following command:
+
+`pip install sas-yolov7-pose`
 
 ## Contributing
 
