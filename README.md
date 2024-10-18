@@ -16,11 +16,11 @@ To install YOLOv7-Pose, use the following command:
 
 ## Contributing
 
-> We welcome your contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit contributions to this project. 
+We welcome your contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit contributions to this project. 
 
 ## License
 
-> This project is licensed under the [GNU GENERAL PUBLIC LICENSE 3.0 License](LICENSE.md).
+This project is licensed under the [GNU GENERAL PUBLIC LICENSE 3.0 License](LICENSE.md).
 
 ## Additional Resources
 
