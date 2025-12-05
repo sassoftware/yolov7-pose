@@ -17,11 +17,11 @@ from torch.utils.mobile_optimizer import optimize_for_mobile
 import cv2
 import numpy as np
 
-import models
+import sas_yolov7_pose.models as models
 from models.experimental import attempt_load
-from utils.activations import Hardswish, SiLU
-from utils.general import colorstr, check_img_size, check_requirements, file_size, set_logging
-from utils.torch_utils import select_device
+from sas_yolov7_pose.utils.activations import Hardswish, SiLU
+from sas_yolov7_pose.utils.general import colorstr, check_img_size, check_requirements, file_size, set_logging
+from sas_yolov7_pose.utils.torch_utils import select_device
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
