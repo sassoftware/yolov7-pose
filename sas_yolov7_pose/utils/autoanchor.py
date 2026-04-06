@@ -3,7 +3,6 @@
 import numpy as np
 import torch
 import yaml
-from tqdm import tqdm
 
 from sas_yolov7_pose.utils.general import colorstr
 
@@ -145,7 +144,7 @@ def kmean_anchors(path='./data/coco128.yaml', n=9, img_size=640, thr=4.0, gen=10
     # Evolve
     npr = np.random
     f, sh, mp, s = anchor_fitness(k), k.shape, 0.9, 0.1  # fitness, generations, mutation prob, sigma
-    pbar = tqdm(range(gen), desc=f'{prefix}Evolving anchors with Genetic Algorithm:')  # progress bar
+    pbar = range(gen)
     for _ in pbar:
         v = np.ones(sh)
         while (v == 1).all():  # mutate until a change occurs (prevent duplicates)
